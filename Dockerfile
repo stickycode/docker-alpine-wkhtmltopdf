@@ -1,5 +1,5 @@
-FROM alpine
-MAINTAINER Fabian Beuke <mail@beuke.org>
+FROM alpine:3.4
+MAINTAINER Petar Bodor <petar.bodor@practiv.com>
 
 RUN apk add --update --no-cache \
     libgcc libstdc++ libx11 glib libxrender libxext libintl \
